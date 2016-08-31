@@ -26,6 +26,8 @@ set smartindent
 
 filetype plugin indent on " auto detect filetype
 
+set laststatus=2 " alaways show state line
+
 " plugin management
 execute pathogen#infect()
 
