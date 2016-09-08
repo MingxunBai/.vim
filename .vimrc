@@ -16,9 +16,9 @@ set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312
 set wrap
 set smarttab
 set expandtab
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 
 set cindent
 set autoindent
