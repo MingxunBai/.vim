@@ -1,5 +1,5 @@
 # How to install
-```bash
+```shell
     git clone http://github.com/mingxunbai/vim
     cp vim/ ~/.vim
     cp ~/.vim/.vimrc ~
