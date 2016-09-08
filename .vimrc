@@ -7,10 +7,17 @@ set autoread
 
 set history=500
 
-set hlsearch " hightlight search results
-set incsearch " make search act like modern browser
-let loaded_matchparen = 1 " disable match parentheses
-let g:rbpt_colorpairs = [ " use rainbow_parenthesse
+" hightlight search results
+set hlsearch 
+
+" make search act like modern browser
+set incsearch 
+
+" disable match parentheses
+let loaded_matchparen = 1 
+
+" use rainbow_parenthesse
+let g:rbpt_colorpairs = [ 
     \ ['brown',       'RoyalBlue3'],
     \ ['Darkblue',    'SeaGreen3'],
     \ ['darkgray',    'DarkOrchid3'],
@@ -48,9 +55,11 @@ set cindent
 set autoindent
 set smartindent
 
-filetype plugin indent on " auto detect filetype
+" auto detect filetype
+filetype plugin indent on 
 
-set laststatus=2 " alaways show status line
+" alaways show status line
+set laststatus=2 
 
 " plugin management
 execute pathogen#infect()
