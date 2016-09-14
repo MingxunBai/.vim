@@ -1,8 +1,7 @@
 # How to install
 ```shell
     git clone http://github.com/mingxunbai/vim
-    cp vim/ ~/.vim
-    cp ~/.vim/.vimrc ~
+    cp vim/ ~/.vim -r
 ```
 
 # 功能简述
