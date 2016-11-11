@@ -6,6 +6,12 @@
 ```
 
 # 功能简述
+## Airline
+状态栏
+
+## Maximizer
+当前 buffer 窗口最大化 / 还原，快捷键 F3
+
 ## Emmet
 修改触发按键为 C-e ,
 
@@ -14,9 +20,3 @@
 
 ## Rainbow parentheses
 括号高亮
-
-## Airline
-状态栏
-
-## Maximizer
-当前 buffer 窗口最大化 / 还原，快捷键 F3
