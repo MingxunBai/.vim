@@ -16,6 +16,3 @@ cp .vim/.vimrc ./
 
 ## NERDTree
 文件树扩展，快捷键 F1
-
-## Rainbow parentheses
-括号高亮
