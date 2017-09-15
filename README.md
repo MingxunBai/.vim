@@ -1,7 +1,7 @@
 # How to install
 ```
 git clone http://github.com/mingxunbai/.vim
-cp .vim/.vimrc ./
+ln -s .vim/.vimrc ./
 ```
 
 # 功能简述
