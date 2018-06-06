@@ -1,4 +1,3 @@
-set nu
 set autoread
 set enc=utf-8
 set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312
