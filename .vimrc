@@ -1,6 +1,7 @@
 set autoread
 set enc=utf-8
 set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312
+set formatoptions-=cro
 set history=500
 set hlsearch
 set incsearch
