@@ -1,9 +1,8 @@
 # How to install
 ```
 git clone http://github.com/mingxunbai/.vim ~/.vim
-ln -s ~/vim/.vimrc ~
-git submodule init
-git submodule update
+ln -sF ~/.vim/.vimrc ~
+git submodule update --init --recursive
 ```
 
 # 功能简述
