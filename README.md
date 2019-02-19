@@ -1,6 +1,6 @@
 # How to install
 ```
-git clone --depth 1 --recursive http://github.com/mingxunbai/.vim ~/.vim
+git clone --depth 0 --recursive http://github.com/mingxunbai/.vim ~/.vim
 ln -sf ~/.vim/.vimrc ~
 ```
 
