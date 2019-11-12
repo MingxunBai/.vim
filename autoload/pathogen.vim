@@ -1,1 +1,1 @@
-/Users/mingxunbai/.vim/bundle/vim-pathogen/autoload/pathogen.vim
+../bundle/vim-pathogen/autoload/pathogen.vim
