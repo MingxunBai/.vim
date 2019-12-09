@@ -13,9 +13,4 @@ set wrap smarttab expandtab cindent autoindent smartindent tabstop=4 shiftwidth=
 syntax on
 filetype plugin indent on
 
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Plugins
-""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Plugin management
 execute pathogen#infect()
