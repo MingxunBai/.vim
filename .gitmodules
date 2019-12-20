@@ -4,6 +4,3 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
-[submodule "bundle/vim-plist"]
-	path = bundle/vim-plist
-	url = git://github.com/darfink/vim-plist.git
