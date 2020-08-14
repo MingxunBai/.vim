@@ -1,8 +1,6 @@
 set autoread
 set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,default,latin1
 set history=500
-set hlsearch
 set incsearch
 set laststatus=2
 set shortmess=atI
@@ -14,3 +12,9 @@ filetype plugin indent on
 execute pathogen#infect()
 
 autocmd BufRead,BufNewFile * setlocal formatoptions-=cro
+
+augroup search-highlight
+	autocmd!
+	autocmd CmdlineEnter /,\? :set hlsearch
+	autocmd CmdlineLeave /,\? :set nohlsearch
+augroup END
