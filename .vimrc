@@ -1,4 +1,3 @@
-set autoread
 set encoding=utf-8
 set history=500
 set incsearch
