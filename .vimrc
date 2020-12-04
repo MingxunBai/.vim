@@ -4,7 +4,7 @@ set history=500
 set incsearch
 set laststatus=2
 set shortmess=atI
-set autoindent cindent smartindent smarttab expandtab tabstop=2 shiftwidth=0 softtabstop=8
+set autoindent cindent smartindent smarttab tabstop=4 shiftwidth=0 softtabstop=8
 
 syntax on
 filetype plugin indent on
@@ -12,6 +12,7 @@ filetype plugin indent on
 execute pathogen#infect()
 
 autocmd BufRead,BufNewFile * setlocal formatoptions-=cro
+autocmd FileType yaml setlocal expandtab tabstop=2
 
 augroup search-highlight
 	autocmd!
