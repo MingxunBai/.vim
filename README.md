@@ -1,4 +1,4 @@
 ```
-git clone --depth 1 --recursive https://github.com/mingxunbai/.vim ~/.vim
+git clone --depth 1 --recursive --remote https://github.com/mingxunbai/.vim ~/.vim
 ln -sf ~/.vim/.vimrc ~
 ```
