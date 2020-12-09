@@ -1,15 +1,9 @@
 [submodule "bundle/airline"]
 	path = bundle/airline
 	url = https://github.com/vim-airline/vim-airline
-	shallow = true
-	branch = master
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
-	shallow = true
-	branch = master
 [submodule "bundle/vim-autoread"]
 	path = bundle/vim-autoread
 	url = https://github.com/djoshea/vim-autoread.git
-	shallow = true
-	branch = master
