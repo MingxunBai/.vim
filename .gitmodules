@@ -1,5 +1,5 @@
 [submodule "bundle/airline"]
-	path = bundle/airline
+	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
