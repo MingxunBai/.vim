@@ -1,4 +1,4 @@
-set autoindent cindent smartindent smarttab
+set autoindent cindent expandtab smartindent smarttab
 set encoding=utf-8
 set history=500
 set incsearch
@@ -11,10 +11,9 @@ syntax on
 execute pathogen#infect()
 
 autocmd BufRead,BufNewFile * setlocal formatoptions-=cro
-autocmd FileType yaml setlocal expandtab tabstop=2
+autocmd FileType yaml setlocal tabstop=2
 
 augroup search-highlight
-	autocmd!
-	autocmd CmdlineEnter /,\? :set hlsearch
-	autocmd CmdlineLeave /,\? :set nohlsearch
+    autocmd CmdlineEnter /,\? :set hlsearch
+    autocmd CmdlineLeave /,\? :set nohlsearch
 augroup END
