@@ -8,11 +8,11 @@ set shiftwidth=0 softtabstop=8 tabstop=2
 filetype indent plugin on
 syntax on
 
-execute pathogen#infect()
-
 autocmd BufRead,BufNewFile * setlocal formatoptions-=cro
 
 augroup search-highlight
     autocmd CmdlineEnter /,\? :set hlsearch
     autocmd CmdlineLeave /,\? :set nohlsearch
 augroup END
+
+execute pathogen#infect()
