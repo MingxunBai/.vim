@@ -1,9 +1,0 @@
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen
-[submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
-	url = https://github.com/vim-airline/vim-airline
-[submodule "bundle/vim-autoread"]
-	path = bundle/vim-autoread
-	url = https://github.com/djoshea/vim-autoread
