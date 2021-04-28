@@ -1,4 +1,3 @@
 ```
-git clone --depth 1 https://github.com/mingxunbai/.vim ~/.vim
-ln -sf ~/.vim/.vimrc ~
+curl -Lo ~/.vimrc https://github.com/MingxunBai/.vim/raw/master/.vimrc
 ```
